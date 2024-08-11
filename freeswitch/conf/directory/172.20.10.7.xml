@@ -1,0 +1,189 @@
+<include>
+    <domain name="172.20.10.7">
+        <params>
+            <param name="dial-string" value="{sip_contact_user}@${domain_name}"/>
+        </params>
+        <groups>
+            <group name="default">
+                <users>
+                    <user id="1001">
+                        <params>
+                            <param name="password" value="$${default_password}"/>
+                            <param name="vm-password" value="1001"/>
+                        </params>
+                        <variables>
+                            <variable name="toll_allow" value="domestic,international,local"/>
+                            <variable name="accountcode" value="1001"/>
+                            <variable name="user_context" value="default"/>
+                            <variable name="effective_caller_id_name" value="Extension 1001"/>
+                            <variable name="effective_caller_id_number" value="1001"/>
+                            <variable name="outbound_caller_id_name" value="$${outbound_caller_name}"/>
+                            <variable name="outbound_caller_id_number" value="$${outbound_caller_id}"/>
+                            <variable name="callgroup" value="default"/>
+                        </variables>
+                    </user>
+                    <user id="1000">
+                        <params>
+                            <param name="password" value="$${default_password}"/>
+                            <param name="vm-password" value="1000"/>
+                        </params>
+                        <variables>
+                            <variable name="toll_allow" value="domestic,international,local"/>
+                            <variable name="accountcode" value="1000"/>
+                            <variable name="user_context" value="default"/>
+                            <variable name="effective_caller_id_name" value="Extension 1000"/>
+                            <variable name="effective_caller_id_number" value="1000"/>
+                            <variable name="outbound_caller_id_name" value="$${outbound_caller_name}"/>
+                            <variable name="outbound_caller_id_number" value="$${outbound_caller_id}"/>
+                            <variable name="callgroup" value="default"/>
+                        </variables>
+                    </user>
+                    <user id="1002">
+                        <params>
+                            <param name="password" value="$${default_password}"/>
+                            <param name="vm-password" value="1002"/>
+                        </params>
+                        <variables>
+                            <variable name="toll_allow" value="domestic,international,local"/>
+                            <variable name="accountcode" value="1002"/>
+                            <variable name="user_context" value="default"/>
+                            <variable name="effective_caller_id_name" value="Extension 1002"/>
+                            <variable name="effective_caller_id_number" value="1002"/>
+                            <variable name="outbound_caller_id_name" value="$${outbound_caller_name}"/>
+                            <variable name="outbound_caller_id_number" value="$${outbound_caller_id}"/>
+                            <variable name="callgroup" value="default"/>
+                        </variables>
+                    </user>
+                    <user id="1003">
+                        <params>
+                            <param name="password" value="$${default_password}"/>
+                            <param name="vm-password" value="1003"/>
+                        </params>
+                        <variables>
+                            <variable name="toll_allow" value="domestic,international,local"/>
+                            <variable name="accountcode" value="1003"/>
+                            <variable name="user_context" value="default"/>
+                            <variable name="effective_caller_id_name" value="Extension 1003"/>
+                            <variable name="effective_caller_id_number" value="1003"/>
+                            <variable name="outbound_caller_id_name" value="$${outbound_caller_name}"/>
+                            <variable name="outbound_caller_id_number" value="$${outbound_caller_id}"/>
+                            <variable name="callgroup" value="default"/>
+                        </variables>
+                    </user>
+                    <user id="1004">
+                        <params>
+                            <param name="password" value="$${default_password}"/>
+                            <param name="vm-password" value="1004"/>
+                        </params>
+                        <variables>
+                            <variable name="toll_allow" value="domestic,international,local"/>
+                            <variable name="accountcode" value="1004"/>
+                            <variable name="user_context" value="default"/>
+                            <variable name="effective_caller_id_name" value="Extension 1004"/>
+                            <variable name="effective_caller_id_number" value="1004"/>
+                            <variable name="outbound_caller_id_name" value="$${outbound_caller_name}"/>
+                            <variable name="outbound_caller_id_number" value="$${outbound_caller_id}"/>
+                            <variable name="callgroup" value="default"/>
+                        </variables>
+                    </user>
+                    <user id="1005">
+                        <params>
+                            <param name="password" value="$${default_password}"/>
+                            <param name="vm-password" value="1005"/>
+                        </params>
+                        <variables>
+                            <variable name="toll_allow" value="domestic,international,local"/>
+                            <variable name="accountcode" value="1005"/>
+                            <variable name="user_context" value="default"/>
+                            <variable name="effective_caller_id_name" value="Extension 1005"/>
+                            <variable name="effective_caller_id_number" value="1005"/>
+                            <variable name="outbound_caller_id_name" value="$${outbound_caller_name}"/>
+                            <variable name="outbound_caller_id_number" value="$${outbound_caller_id}"/>
+                            <variable name="callgroup" value="default"/>
+                        </variables>
+                    </user>
+                    <user id="1006">
+                        <params>
+                            <param name="password" value="$${default_password}"/>
+                            <param name="vm-password" value="1006"/>
+                        </params>
+                        <variables>
+                            <variable name="toll_allow" value="domestic,international,local"/>
+                            <variable name="accountcode" value="1006"/>
+                            <variable name="user_context" value="default"/>
+                            <variable name="effective_caller_id_name" value="Extension 1006"/>
+                            <variable name="effective_caller_id_number" value="1006"/>
+                            <variable name="outbound_caller_id_name" value="$${outbound_caller_name}"/>
+                            <variable name="outbound_caller_id_number" value="$${outbound_caller_id}"/>
+                            <variable name="callgroup" value="default"/>
+                        </variables>
+                    </user>
+                    <user id="1007">
+                        <params>
+                            <param name="password" value="$${default_password}"/>
+                            <param name="vm-password" value="1007"/>
+                        </params>
+                        <variables>
+                            <variable name="toll_allow" value="domestic,international,local"/>
+                            <variable name="accountcode" value="1007"/>
+                            <variable name="user_context" value="default"/>
+                            <variable name="effective_caller_id_name" value="Extension 1007"/>
+                            <variable name="effective_caller_id_number" value="1007"/>
+                            <variable name="outbound_caller_id_name" value="$${outbound_caller_name}"/>
+                            <variable name="outbound_caller_id_number" value="$${outbound_caller_id}"/>
+                            <variable name="callgroup" value="default"/>
+                        </variables>
+                    </user>
+                    <user id="1008">
+                        <params>
+                            <param name="password" value="$${default_password}"/>
+                            <param name="vm-password" value="1008"/>
+                        </params>
+                        <variables>
+                            <variable name="toll_allow" value="domestic,international,local"/>
+                            <variable name="accountcode" value="1008"/>
+                            <variable name="user_context" value="default"/>
+                            <variable name="effective_caller_id_name" value="Extension 1008"/>
+                            <variable name="effective_caller_id_number" value="1008"/>
+                            <variable name="outbound_caller_id_name" value="$${outbound_caller_name}"/>
+                            <variable name="outbound_caller_id_number" value="$${outbound_caller_id}"/>
+                            <variable name="callgroup" value="default"/>
+                        </variables>
+                    </user>
+                    <user id="1009">
+                        <params>
+                            <param name="password" value="$${default_password}"/>
+                            <param name="vm-password" value="1009"/>
+                        </params>
+                        <variables>
+                            <variable name="toll_allow" value="domestic,international,local"/>
+                            <variable name="accountcode" value="1009"/>
+                            <variable name="user_context" value="default"/>
+                            <variable name="effective_caller_id_name" value="Extension 1009"/>
+                            <variable name="effective_caller_id_number" value="1009"/>
+                            <variable name="outbound_caller_id_name" value="$${outbound_caller_name}"/>
+                            <variable name="outbound_caller_id_number" value="$${outbound_caller_id}"/>
+                            <variable name="callgroup" value="default"/>
+                        </variables>
+                    </user>
+                    <user id="1010">
+                        <params>
+                            <param name="password" value="$${default_password}"/>
+                            <param name="vm-password" value="1010"/>
+                        </params>
+                        <variables>
+                            <variable name="toll_allow" value="domestic,international,local"/>
+                            <variable name="accountcode" value="1010"/>
+                            <variable name="user_context" value="default"/>
+                            <variable name="effective_caller_id_name" value="Extension 1010"/>
+                            <variable name="effective_caller_id_number" value="1010"/>
+                            <variable name="outbound_caller_id_name" value="$${outbound_caller_name}"/>
+                            <variable name="outbound_caller_id_number" value="$${outbound_caller_id}"/>
+                            <variable name="callgroup" value="default"/>
+                        </variables>
+                    </user>
+                </users>
+            </group>
+        </groups>
+    </domain>
+</include>
